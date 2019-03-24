@@ -10,21 +10,6 @@ body {
     background-size: 1000px;
 }
 
-#logo {
-    width: 250px;
-    height: 90px;
-    background: #4aaaa5;
-    float: left;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    line-height: 90px;
-    color: #fff;
-    font-weight: 700;
-    font-size: 35px;
-    text-decoration: none;
-    margin-bottom: 15px;
-}
-
 
 .container{
     width: 100%;
@@ -33,7 +18,8 @@ body {
     clear: both;
     margin-bottom: 50px;
     background: black;
-    font-size: 35px;
+    font-size: 40px; 
+    font-family: 'Dancing Script', cursive;
 }
 
 h1, h2, h3, p {
@@ -42,6 +28,7 @@ h1, h2, h3, p {
 
 p {
     font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 p:last-child{
@@ -76,7 +63,6 @@ h2, h3 {
     width: 100%;
     margin-top: 0px;
     height: 130px;
-    font-family: 'Sacramento', cursive;
 }
 
 
@@ -97,11 +83,18 @@ nav a {
     border-left: 1px solid #efefef;
     padding-left: 15px;
     line-height: 18px;
-
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 35px;
 }
 
 nav a:first-child{
     border-left: 0 none;
+}
+
+nav:hover{
+    color: darkred;
+    font-size: 40px;
 }
 
 #main-container{
@@ -142,7 +135,8 @@ nav a:first-child{
     max-width: 270px;
     float: right;
     border: 1px solid #ddd;
-  margin-top: 25px;
+    margin-top: 25px;
+    margin-right: 25%;
 
 }
 
