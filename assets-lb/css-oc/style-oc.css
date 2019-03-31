@@ -325,6 +325,6 @@ input[type=submit] {
         padding-left: 0;
     }
     .sidebar {
-        margin-left: 50px;
+        margin: 15px 0;
     }
 }
