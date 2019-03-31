@@ -289,10 +289,7 @@ input[type=submit] {
         margin-bottom: 10px;
 
     }
-    .work {
-        width: 47%;
-        margin-bottom: 10px;
-    }
+    
     .work:nth-child(even) {
         margin-right: 0;
     }
@@ -326,5 +323,8 @@ input[type=submit] {
     nav a {
         width: 30%;
         padding-left: 0;
+    }
+    .sidebar {
+        margin-left: 50px;
     }
 }
