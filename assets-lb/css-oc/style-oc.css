@@ -132,13 +132,14 @@ nav:hover{
     background: #fff;
     padding: 30px;
     width: 100%;
-    max-width: 270px;
-    float: right;
+    max-width: 960px;
+    height: 300px;
+    float: left;
     border: 1px solid #ddd;
     margin-top: 25px;
     margin-right: 25%;
+    text-align: center;
 
-}
 
 h3, .sidebar, h2 {
     border-bottom: 2px solid #eee;;
@@ -324,7 +325,5 @@ input[type=submit] {
         width: 30%;
         padding-left: 0;
     }
-    .sidebar {
-        margin: 15px 0;
-    }
+    
 }
